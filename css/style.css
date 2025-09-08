@@ -257,7 +257,6 @@ textarea:focus {
     transition: all 0.3s ease;
 }
 
-
 /* === Responsive Design === */
 @media (max-width: 768px) {
     body {
