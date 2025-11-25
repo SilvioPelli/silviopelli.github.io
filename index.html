@@ -1,148 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Silvio Pelliccia - Junior Frontend Developer</title>
+    <title>Silvio Pelliccia – Junior Frontend Developer</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Orbitron:wght@700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header class="fade-in">
-        <h1>Silvio Pelliccia</h1>
-        <p>Junior Frontend Developer</p>
+    <header class="hero fade-in">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hallo, ich bin Silvio Pelliccia</h1>
+                <p>Junior Frontend Developer mit Leidenschaft für sauberen Code und benutzerfreundliche Interfaces</p>
+            </div>
+            <div class="hero-image">
+            <img src="images/IMG_4072.jpeg" alt="Silvio Pelliccia lächelt freundlich" />
+            </div>
+        </div>
     </header>
 
-    <section id="ueber-mich" class="fade-in">
+    <section id="ueber-mich" class="fade-in container">
         <h2>Über mich</h2>
         <p class="kurzfassung">
-            Ich bin ein Quereinsteiger mit Leidenschaft fürs Programmieren. Nach 10 Jahren in der Industrie habe ich
-            meinen Traum verfolgt, als Frontend Developer kreative und benutzerfreundliche Webprojekte zu gestalten.
+            Quereinsteiger mit Leidenschaft fürs Programmieren. Nach 10 Jahren Industrie-Erfahrung entwickle ich
+            kreative, funktionale Webprojekte.
         </p>
 
         <button id="toggleMehr" aria-expanded="false" aria-controls="mehrText">Mehr lesen</button>
 
         <div id="mehrText" class="ausfuehrlich" hidden>
-
             <p>
-                Ich bin Silvio Pelliccia – ein angehender Frontend Developer mit einem eher untypischen, aber umso
-                spannenderen Weg in die Welt des Programmierens.
+                Ich bin Silvio Pelliccia – angehender Frontend Developer mit einem untypischen, aber spannenden Weg
+                in die Welt des Programmierens.
             </p>
-
             <p>
-                Zehn Jahre lang war ich als Chemikant in der Mineralölraffinerie Oberrhein tätig, wo ich täglich
-                technische Anlagen steuerte, wartete und höchste Sicherheitsstandards einhalten musste. Parallel
-                engagierte ich mich als Feuerwehrmann und absolvierte eine Weiterbildung zum Truppführer. Obwohl ich
-                meinen Beruf mit Verantwortung und Präzision ausführte, war das ortsgebundene Arbeiten im Schichtdienst
-                nie mein langfristiger Wunsch.
+                Nach zehn Jahren als Chemikant und Truppführer bei der Feuerwehr entschied ich mich 2023 gemeinsam mit
+                meiner Frau für eine Europareise. Diese Zeit hat mir geholfen, meine Leidenschaft für Technik und
+                Webentwicklung zu erkennen.
             </p>
-
             <p>
-                2023 traf ich gemeinsam mit meiner Frau eine mutige Entscheidung: Wir kündigten unsere Jobs und begaben
-                uns auf eine Europareise. Diese Auszeit hat mir geholfen, Abstand vom Alltag zu gewinnen und darüber
-                nachzudenken, was ich wirklich will. Ich war schon immer begeistert von Technik und digitalen
-                Entwicklungen – und auf dieser Reise hatte ich zum ersten Mal die Ruhe, mich intensiv damit zu
-                beschäftigen. Dabei wurde mir klar: Programmieren ist nicht nur interessant – es ist genau das, was ich
-                machen möchte.
-            </p>
-
-            <p>
-                Die Faszination, mit bloßem Code funktionale und schöne Benutzeroberflächen zu erschaffen, hat mich
-                gepackt. Ich begann, mich intensiv mit HTML, CSS und JavaScript zu beschäftigen, startete den Frontend
-                Developer-Kurs bei Codecademy und setzte erste Projekte – auch mit Unterstützung von KI – um. Für mich
-                ist KI ein wertvolles Werkzeug, das ich bewusst einsetze, um mich stetig weiterzuentwickeln. Mein Ziel
-                ist es, mit wachsendem Wissen immer eigenständiger und sicherer zu arbeiten.
-            </p>
-
-            <p>
-                Mein langfristiger Weg? Zunächst tiefes Verständnis im Frontend – dann der Schritt ins Backend. Ich
-                träume davon, irgendwann eigene Webanwendungen und digitale Produkte zu entwickeln, vielleicht auch als
-                Freelancer. Der erste große Meilenstein auf diesem Weg ist, mit erfahrenen Entwicklern
-                zusammenzuarbeiten, von ihnen zu lernen und gemeinsam Projekte zu realisieren.
-            </p>
-
-            <p>
-                Was mich ausmacht: Gründlichkeit, technisches Verständnis, Wissensdurst – und der Wunsch, nicht nur Code
-                zu schreiben, sondern etwas zu erschaffen, das Menschen begeistert. Meine Erfahrung aus der Industrie
-                hat mir ein Gefühl für Sicherheit, Verantwortung und sauberes Arbeiten gegeben. Ich lerne gerne, bin
-                lösungsorientiert, kommunikativ und kreativ – aber auch strukturiert und fokussiert.
-            </p>
-
-            <p>
-                Privat schöpfe ich Kraft aus Sport, Wandern, der Natur und meiner Familie. Ich liebe das Meer, das
-                Reisen, das Fotografieren und die Arbeit an eigenen Projekten. Mein kleiner Zwergspitz Bilbo begleitet
-                mich dabei mit viel Energie – genau wie die Vision, unsere gemeinsamen Träume Stück für Stück wahr
-                werden zu lassen.
+                Seitdem vertiefe ich meine Kenntnisse in HTML, CSS, JavaScript und modernen Frameworks. Mein Ziel:
+                Projekte
+                realisieren, die Menschen begeistern.
             </p>
         </div>
     </section>
 
-    <section id="projekte">
+    <section id="projekte" class="container">
         <h2>Projekte</h2>
+        <div class="projekt-container">
+            <div class="projekt-card">
+                <h3>Demo - Auftragserfassung</h3>
+                <p>Webanwendung zur Verwaltung von Kundenaufträgen.</p>
+                <p><strong>Technologien:</strong> HTML, CSS, JavaScript, LocalStorage</p>
+                <div class="links">
+                    <a href="https://github.com/SilvioPelli/Demo-Auftragserfassung" target="_blank"
+                        rel="noopener noreferrer">Github</a>
+                    <a href="https://silviopelli.github.io/Demo-Auftragserfassung/" target="_blank"
+                        rel="noopener noreferrer">Live Demo</a>
+                </div>
+            </div>
 
-        <div class="projekt">
-            <h3>Demo - Auftragserfassung</h3>
-            <p>Eine einfache Webanwendung zur Verwaltung von Kundenaufträgen mit HTML, CSS und JavaScript.</p>
-            <p><strong>Technologien:</strong> HTML, CSS, JavaScript, LocalStorage</p>
-            <div class="links">
-                <a href="https://github.com/SilvioPelli/Demo-Auftragserfassung" target="_blank"
-                    rel="noopener noreferrer">
-                    Github Repo
-                </a>
-                <a href="https://silviopelli.github.io/Demo-Auftragserfassung/" target="_blank"
-                    rel="noopener noreferrer">
-                    Live Demo
-                </a>
+            <div class="projekt-card">
+                <h3>Kreditkarten Validierung</h3>
+                <p>JavaScript-Projekt zur Validierung von Kreditkartennummern (Luhn-Algorithmus)</p>
+                <p><strong>Technologien:</strong> JavaScript</p>
+                <div class="links">
+                    <a href="https://github.com/SilvioPelli/credit-card-validator" target="_blank"
+                        rel="noopener noreferrer">Github</a>
+                </div>
+            </div>
+
+            <div class="projekt-card">
+                <h3>Zelda-Dungeon Crawler</h3>
+                <p>Dungeon-Crawler-Spiel inspiriert von Zelda, mit zusätzlichen Leveln und Anpassungen.</p>
+                <p><strong>Technologien:</strong> HTML, CSS, JavaScript</p>
+                <div class="links">
+                    <a href="https://github.com/SilvioPelli/Zelda-js" target="_blank"
+                        rel="noopener noreferrer">Github</a>
+                    <a href="https://silviopelli.github.io/Zelda-js/" target="_blank" rel="noopener noreferrer">Live
+                        Demo</a>
+                </div>
             </div>
         </div>
-
-        <div class="projekt">
-            <h3>Kreditkarten validierung</h3>
-            <p>Ein kleines JavaScript-Projekt zur Validierung von Kreditkartennummern mit dem Luhn-Algorithmus</p>
-            <p><strong>Technologien:</strong> JavaScript</p>
-            <div class="links">
-                <a href="https://github.com/SilvioPelli/credit-card-validator" target="_blank"
-                    rel="noopener noreferrer">Github Repo</a>
-            </div>
-        </div>
-
-        <div class="projekt">
-            <h3>Zelda-Dungeon Crawler</h3>
-            <p>Ein kleines Dungeon-Crawler-Spiel inspiriert von The Legend of Zelda, entwickelt mit Vanilla JavaScript,
-                HTML und CSS. Dieses Projekt basiert auf einem YouTube-Tutorial von Ania Kubów (kubowania) und wurde von
-                mir erweitert und angepasst (z. B. zusätzliche Level).</p>
-            <p><strong>Technologien:</strong> HTML, CSS, JavaScript</p>
-            <div class="links">
-                <a href="https://github.com/SilvioPelli/Zelda-js" target="_blank" rel="noopener noreferrer">
-                    Github Repo
-                </a>
-
-                <a href="https://silviopelli.github.io/Zelda-js/" target="_blank" rel="noopener noreferrer">
-                    Live Demo
-                </a>
-            </div>
-        </div>
-
-        <!-- Hier kommen weitere Projekte unten drunter -->
-
     </section>
 
-    <section id="kontakt">
+    <section id="kontakt" class="container fade-in">
         <h2>Kontakt</h2>
-
         <div class="kontakt-links">
-            <p>
-                <strong>Github:</strong> <a href="https://github.com/SilvioPelli" target="_blank"
-                    rel="noopener noreferrer">github.com/SilvioPelli</a>
-            </p>
-            <p>
-                <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/silvio-pelliccia-2ab279373/"
-                    target="_blank" rel="noopener noreferrer">LinkedIn-Profil</a>
-            </p>
+            <a href="https://github.com/SilvioPelli" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/silvio-pelliccia-2ab279373/" target="_blank"
+                rel="noopener noreferrer">LinkedIn</a>
         </div>
 
         <form action="https://formspree.io/f/xeozrrbn" method="POST" class="kontakt-formular">
@@ -153,15 +107,16 @@
             <input type="email" id="email" name="email" required>
 
             <label for="nachricht">Nachricht</label>
-            <textarea name="nachricht" id="nachricht" rows="5" required></textarea>
+            <textarea id="nachricht" name="nachricht" rows="5" required></textarea>
 
-            <button type="submit" class="glow-hover">Nachricht senden</button>
+            <button type="submit">Nachricht senden</button>
         </form>
     </section>
 
     <footer>
         &copy; 2025 Silvio Pelliccia
     </footer>
+
     <script src="script.js"></script>
 </body>
 
